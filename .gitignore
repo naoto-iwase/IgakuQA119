@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[oc]
+.venv
+.python-version
+
+# Environment variables
+.env
+
+# mac
+.DS_Store
+
+# Generated answers and results (demo and leaderboard data are tracked)
+answers/*
+!answers/demo/
+results/*
+!results/correct_answers.csv
+!results/leaderboard.json

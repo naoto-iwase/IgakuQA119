@@ -1,0 +1,1649 @@
+{
+  "experiment_id": "119F_qwen2_5-72b",
+  "results": [
+    {
+      "question_number": "119F1",
+      "question_text": "世界保健機関〈WHO〉の目的で正しいのはどれか。 ",
+      "choices": [
+        "a. 疾病の国際的伝播を最大限防止する。",
+        "b. 人道的かつ秩序ある移住を推進する。",
+        "c. 開発途上国の経済·社会の発展、生活水準を持続的に発展させる。",
+        "d. 世界中の子供たちが「子供の基本的人権」を享受できるようにする。",
+        "e. 人々が健全で活発な生活を送るために十分な量·質の食糧を供給する。"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:09:06.395083",
+          "answer": "a",
+          "confidence": 1.0,
+          "explanation": "whoの主要な任務は、疾病の国際的伝播を最大限に防止し、世界中の人々の健康の保全と向上を図ることです。選択肢aが最も該当します。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F2",
+      "question_text": "大腿静脈の周辺臓器の解剖で誤っているのはどれか。 ",
+      "choices": [
+        "a. 鼠径靱帯は坐骨結節に付着する。",
+        "b. 鼠径靱帯の頭側には後腹膜腔がある。",
+        "c. 縫工筋は大腿三角の一辺を構成する。",
+        "d. 大腿静脈は大腿動脈の内側を走行する。",
+        "e. 大腿神経は大腿動脈の外側を走行する。"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:09:12.197095",
+          "answer": "a",
+          "confidence": 1.0,
+          "explanation": "鼠径靱帯は実際には腸骨結節に付着するため、aの記述が誤っている。b, c, d, eの記述は解剖学的に正確である。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F3",
+      "question_text": "正常新生児で正しいのはどれか。 ",
+      "choices": [
+        "a. 7頭身である。",
+        "b. 胸式呼吸が主体である。",
+        "c. 大泉門は生後1か月ごろ閉鎖する。",
+        "d. 生理的体重減少は10%以下である。",
+        "e. 生理的黄疸のピークは生後1~2日である。"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:09:18.900493",
+          "answer": "d",
+          "confidence": 1.0,
+          "explanation": "正常新生児において、新生児期には生理的体重減少がみられますが、これは通常生後7～10日頃には自然に回復します。体重減少の範囲は約3～9%とされていますので、10%以下であるという記述は正しいです。他の選択肢は誤りです。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F4",
+      "question_text": "抗精神病薬の作用と関連しているのはどれか。 ",
+      "choices": [
+        "a. ドパミン受容体",
+        "b. セロトニン受容体",
+        "c. モノアミンオキシダーゼ",
+        "d. アセチルコリンエステラーゼ",
+        "e. ノルアドレナリントランスポーター"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:09:26.385072",
+          "answer": "a",
+          "confidence": 0.95,
+          "explanation": "抗精神病薬の主要な作用機序はドパミン受容体のブロッキング作用である。セロトニン受容体も関与することがあるが、ドパミン受容体が最も重要とされる。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F5",
+      "question_text": "遺伝子-環境交互作用の説明で正しいのはどれか。 ",
+      "choices": [
+        "a. 遺伝子と環境の影響が交互に出現する。",
+        "b. 環境中の有害物質で遺伝子変異が起こる。",
+        "c. 遺伝子組み換えの生物が環境に影響を与える。",
+        "d. 遺伝子と環境のそれぞれが原因の疾患がある。",
+        "e. 遺伝子の違いにより環境の健康への影響が異なる。"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:09:31.680731",
+          "answer": "e",
+          "confidence": 1.0,
+          "explanation": "遺伝子-環境交互作用は、個体の遺伝的背景によって環境要因の影響が異なることを指します。選択肢eは、この定義に最も適しています。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F6",
+      "question_text": "副腎皮質と共通のホルモン合成酵素が存在するのはどれか。 ",
+      "choices": [
+        "a. 視床下部",
+        "b. 下垂体",
+        "c. 副甲状腺",
+        "d. 副腎髄質",
+        "e. 性腺"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:09:38.405128",
+          "answer": "d",
+          "confidence": 1.0,
+          "explanation": "副腎皮質と共通のホルモン合成酵素が存在するのは副腎髄質である。副腎皮質と副腎髄質の両方にステロイドホルモンの合成にかかわる酵素が存在する。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F7",
+      "question_text": "保健医療に関する国際的な提言と内容の組合せで正しいのはどれか。 ",
+      "choices": [
+        "a. アデレード宣言あらゆる政策において健康を考慮する。",
+        "b. アルマ·アタ宣言知りえた患者の秘密を尊重する。",
+        "c. ジュネーブ宣言世界のすべての人に健康を届ける。",
+        "d. ヘルシンキ宣言他の医師の意見を求める権利を認める。",
+        "e. リスボン宣言倫理審査委員会を設置する。"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:09:46.280506",
+          "answer": "a",
+          "confidence": 1.0,
+          "explanation": "アデレード宣言は1986年の国際保健会議で採択され、「あらゆる政策において健康を考慮する」ことが提唱されました。これは健康の決定要因として社会的、経済的、環境的な要因を重視するという考えを示しています。他の選択肢はそれぞれ異なる宣言や原則に関連しています。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F8",
+      "question_text": "職場で健康診断の実施が規定されているのはどれか。 ",
+      "choices": [
+        "a. 雇入時",
+        "b. 退職した時",
+        "c. 労働災害発生時",
+        "d. 長時間労働した時",
+        "e. 休職から復職した時"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:09:50.844936",
+          "answer": "ace",
+          "confidence": 1.0,
+          "explanation": "労働安全衛生法では、雇入時、労働災害発生時、休職から復職した時の健康診断が規定されています。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F9",
+      "question_text": "治療薬Aの疾患Bに対する治療効果を調べるための臨床試験を行った。疾患B患者を対象として、治療薬A投与群〈介入群〉とプラセボ投与群〈対照群〉にランダムに割り付けた。対象者数は240人で、治療効果を3日目症状消失率で比較検討した。得られた結果を表に示す。 対象者数: 介入群 120人, 対照群 120人 3日目症状消失率: 介入群 28%, 対照群 15%, P値 0.02 この臨床試験の統計解析手法はどれか。 ",
+      "choices": [
+        "a. t検定",
+        "b. χ2検定",
+        "c. 生存分析",
+        "d. 線形回帰",
+        "e. 比例ハザードモデル"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:09:57.254072",
+          "answer": "b",
+          "confidence": 0.9,
+          "explanation": "3日目症状消失率の比較は、カテゴリカルデータ（二値変数）の頻度分布の差を検定するため、χ2検定が適切である。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F10",
+      "question_text": "国民生活基礎調査に含まれないのはどれか。 ",
+      "choices": [
+        "a. 医療",
+        "b. 教育",
+        "c. 所得",
+        "d. 福祉",
+        "e. 保健"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:10:03.269477",
+          "answer": "b",
+          "confidence": 1.0,
+          "explanation": "国民生活基礎調査は、医療、所得、福祉、保健に関する情報を収集するための調査であり、教育は含まれていません。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F11",
+      "question_text": "原発巣コントロール良好な転移性脳腫瘍の治療で、定位放射線照射が適切なのはどれか。 ",
+      "choices": [
+        "a. 髄膜播種を伴う病変",
+        "b. 脳ヘルニアを伴う病変",
+        "c. 多数の病変(15個以上)",
+        "d. 薬物療法に高感受性の病変",
+        "e. 小さい病変(最大径3cm以下)"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:10:10.888201",
+          "answer": "e",
+          "confidence": 0.95,
+          "explanation": "定位放射線照射は、原発巣コントロール良好かつ局所的な病変に有効です。そのため、薬物療法に高感受性でない限り、小さい病変（最大径3cm以下）が適切となります。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F12",
+      "question_text": "乳癌術後の上肢リンパ浮腫に対する治療で適切なのはどれか。 ",
+      "choices": [
+        "a. 温熱療法",
+        "b. 装具による固定",
+        "c. 促通訓練",
+        "d. 弾性着衣による圧迫",
+        "e. 電気療法"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:10:22.145283",
+          "answer": "d",
+          "confidence": 0.95,
+          "explanation": "乳癌術後の上肢リンパ浮腫には、弾性着衣による圧迫療法が一般的に推奨されています。これは、浮腫部への圧迫を適切に与えることでリンパ液の流れを改善し、浮腫を軽減します。他の選択肢は、リンパ浮腫には必ずしも効果的とは言えません。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F13",
+      "question_text": "主要な曝露源が魚介類摂取であるのはどれか。 ",
+      "choices": [
+        "a. 鉛",
+        "b. カドミウム",
+        "c. メチル水銀",
+        "d. 塩化ビニルモノマー",
+        "e. テトラクロロエチレン"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:10:28.116757",
+          "answer": "c",
+          "confidence": 1.0,
+          "explanation": "魚介類摂取が主要な曝露ルートとして知られているのはメチル水銀である。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F14",
+      "question_text": "皮膚の構造や機能で正しいのはどれか。 ",
+      "choices": [
+        "a. Merkel細胞は免疫担当細胞である。",
+        "b. 皮脂の主成分はコレステロールである。",
+        "c. チロシナーゼはメラニン生成に必須である。",
+        "d. アポクリン汗腺の導管は表皮に直接開口する。",
+        "e. ヘミデスモソームは表皮細胞間の接着に関わる。"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:10:35.944086",
+          "answer": "c",
+          "confidence": 1.0,
+          "explanation": "チロシナーゼはメラニン合成に必須な酵素であり、他の選択肢は誤りである。merkel細胞は触覚受容器、皮脂の主成分は中性脂肪、アポクリン汗腺の導管は毛包に開口し、ヘミデスモソームは基底細胞と基底膜の接着に関わる。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F15",
+      "question_text": "医療保険はどれか。 ",
+      "choices": [
+        "a. 医療扶助",
+        "b. 介護保険",
+        "c. 国民年金",
+        "d. 後期高齢者医療制度",
+        "e. 労働者災害補償保険"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:10:43.922321",
+          "answer": "d",
+          "confidence": 1.0,
+          "explanation": "後期高齢者医療制度は、75歳以上の高齢者や特定の疾患を持つ65歳以上の人々を対象とした医療保険制度である。他の選択肢は医療保険とは異なる制度である。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F16",
+      "question_text": "B細胞の活性化に直接関与する細胞はどれか。 ",
+      "choices": [
+        "a. NK細胞",
+        "b. ヘルパーT細胞",
+        "c. マクロファージ",
+        "d. 制御性T細胞〈Treg>",
+        "e.細胞傷害性T細胞〈CTL〉"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:10:50.493083",
+          "answer": "b",
+          "confidence": 1.0,
+          "explanation": "ヘルパーt細胞はb細胞の活性化に直接関与し、b細胞が抗体を産生するのを助ける。他の選択肢は直接b細胞の活性化に関与しない。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F17",
+      "question_text": "医科診療医療費が最も大きいのはどれか。 ",
+      "choices": [
+        "a. 呼吸器系の疾患",
+        "b. 循環器系の疾患",
+        "c. 精神及び行動の障害",
+        "d. 内分泌、栄養及び代謝疾患",
+        "e. 筋骨格系及び結合組織の疾患"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:10:59.438868",
+          "answer": "b",
+          "confidence": 0.9,
+          "explanation": "循環器系の疾患は医科診療医療費の中で最も大きな割合を占めているとされています。これは、高血圧や心疾患が成人病として一般的で、且つ重篤な疾患であるためです。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F18",
+      "question_text": "保健所の業務で誤っているのはどれか。 ",
+      "choices": [
+        "a. 精神疾患の相談",
+        "b. 医療機関への立入検査",
+        "c. 身体障害者手帳の交付",
+        "d. 人口動態統計に関する業務",
+        "e. 結核発生時の接触者健康診断"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:11:06.043712",
+          "answer": "c",
+          "confidence": 0.85,
+          "explanation": "保健所は保健衛生の向上や疾病予防に関わる業務を行いますが、身体障害者手帳の交付は市町村の役割です。その他の選択肢は保健所の業務に含まれます。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F19",
+      "question_text": "Which of the following isa target disease for neonatal screening using tandem massspectrometry? ",
+      "choices": [
+        "a. Wilson disease",
+        "b. Spinal muscular atrophy(SMA)",
+        "c. Methylmalonic acidemia(MMA)",
+        "d. Severe combined immunodeficiency(SCID)",
+        "e. Congenital cytomegalovirus infection(cCMV)"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:11:13.293762",
+          "answer": "c",
+          "confidence": 1.0,
+          "explanation": "methylmalonic acidemia (mma) is a metabolic disorder that can be detected through neonatal screening using tandem mass spectrometry. other conditions like wilson disease, spinal muscular atrophy, severe combined immunodeficiency, and congenital cytomegalovirus infection are not typically screened for using tandem mass spectrometry in newborns.",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F20",
+      "question_text": "精神症状と障害される精神機能の組合せで正しいのはどれか。 ",
+      "choices": [
+        "a. 恐怖 - 思考",
+        "b. 無為 - 意欲",
+        "c. 離人症 - 発達",
+        "d. 両価性 - 自我",
+        "e. 学習障害 - 知能"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:11:23.507148",
+          "answer": "b",
+          "confidence": 1.0,
+          "explanation": "無為は意欲の障害を表します。他の選択肢は不適切な組み合わせです。恐怖は感情の障害、離人症は自己認識の障害、両価性は気分の障害、学習障害は特定の学習機能の障害を表します。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F21",
+      "question_text": "従属人口指数の分母はどれか。 ",
+      "choices": [
+        "a. 総人口",
+        "b. 年少人口",
+        "c. 成人人口",
+        "d. 老年人口",
+        "e. 生産年齢人口"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:11:30.289667",
+          "answer": "e",
+          "confidence": 1.0,
+          "explanation": "従属人口指数は、生産年齢人口（通常15～64歳）に対して、年少人口（0～14歳）と老年人口（65歳以上）の割合を示す指標であり、分母として生産年齢人口が用いられます。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F22",
+      "question_text": "我が国の最近5年間の年間総出生数に対する、母体年齢40歳以上の出生数の割合に最も近いのはどれか。 ",
+      "choices": [
+        "a. 1%",
+        "b. 6%",
+        "c. 16%",
+        "d. 26%",
+        "e. 36%"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:11:35.973427",
+          "answer": "b",
+          "confidence": 0.9,
+          "explanation": "近年の統計データによると、我が国の母体年齢40歳以上の出生数は、全体の約6%を占めていることが報告されています。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F23",
+      "question_text": "求心性視野狭窄をきたす疾患はどれか。 ",
+      "choices": [
+        "a. うっ血乳頭",
+        "b. 頭蓋咽頭腫",
+        "c. 加齢黄斑変性",
+        "d. 球後視神経炎",
+        "e. 開放隅角緑内障"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:11:42.371379",
+          "answer": "d",
+          "confidence": 1.0,
+          "explanation": "求心性視野狭窄は、視野が徐々に狭くなる特徴的な症状で、視神経の障害により起こることが多い。選択肢の中では、球後視神経炎がこの症状を引き起こす可能性が高い。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F24",
+      "question_text": "精神運動興奮状態の患者に対して、精神保健指定医が行うことのできる行動の制限で誤っているのはどれか。 ",
+      "choices": [
+        "a. 隔離",
+        "b. 身体拘束",
+        "c. 退院の制限",
+        "d. 面会の制限",
+        "e. 処遇改善請求の制限"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:11:49.119728",
+          "answer": "e",
+          "confidence": 0.95,
+          "explanation": "精神運動興奮状態の患者に対して、精神保健指定医は隔離、身体拘束、退院の制限、面会の制限を行うことができますが、処遇改善請求の制限はその権限外であるため誤りです。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F25",
+      "question_text": "The constitution of the world health organization <WHO> is shown below. \"Health is a state of complete physical, () and social well-being and not merely the absence of disease or infirmity.\" Select the correct answer from below to complete the sentence. ",
+      "choices": [
+        "a. mental",
+        "b. spiritual",
+        "c. emotional",
+        "d. psychiatrice",
+        "e. psychological"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:11:54.893610",
+          "answer": "a",
+          "confidence": 1.0,
+          "explanation": "the correct term to complete the who definition of health is \"mental,\" as it is widely recognized in the standard definition.",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F26",
+      "question_text": "早朝空腹時の主な血糖調節機構はどれか。 ",
+      "choices": [
+        "a. 肝臓でのブドウ糖放出",
+        "b. 腎臓でのブドウ糖再吸収",
+        "c. 脳でのブドウ糖取り込み",
+        "d. 骨格筋でのブドウ糖取り込み",
+        "e. 副腎での糖質ステロイド合成"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:12:01.944752",
+          "answer": "a",
+          "confidence": 1.0,
+          "explanation": "早朝空腹時には、肝臓がブドウ糖を放出することで血糖値の維持に重要な役割を果たします。これは肝臓の糖新生と肝糖原分解による作用です。他の選択肢は空腹時血糖調節の主要なメカニズムではありません。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F27",
+      "question_text": "地域包括支援センターの業務はどれか。 ",
+      "choices": [
+        "a. 高齢者虐待の防止",
+        "b. 発達障害児の相談",
+        "c. 地域住民のがん検診",
+        "d. へき地医療対策の企画",
+        "e. 通所リハビリテーションの提供"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:12:07.781295",
+          "answer": "a",
+          "confidence": 1.0,
+          "explanation": "地域包括支援センターの主な業務には、高齢者虐待の防止が含まれる。他の選択肢は異なる機関や組織の業務に該当する。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F28",
+      "question_text": "成人期に低身長をきたすのはどれか。2つ選べ。 ",
+      "choices": [
+        "a. Marfan症候群",
+        "b. Turner症候群",
+        "c. Kallmann症候群",
+        "d. Prader-Willi症候群",
+        "e. アロマターゼ欠損症"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:12:13.140434",
+          "answer": "bd",
+          "confidence": 1.0,
+          "explanation": "turner症候群とprader-willi症候群は、ともに成人期に低身長をきたす代表的な疾患である。turner症候群はx染色体の一部または全部が欠けていることによって引き起こされ、prader-willi症候群は15番染色体の一部が欠失または活性化しないために生じる。一方、他の選択肢では低身長は特徴的ではない。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F29",
+      "question_text": "顔貌の特徴と疾患の組合せで正しいのはどれか。2つ選べ。 ",
+      "choices": [
+        "a. 下顎突出 - 先端巨大症",
+        "b. 仮面様顔貌 - Parkinson病",
+        "c. 眼球突出 - Sheehan症候群",
+        "d. 眉毛脱失 - Cushing病",
+        "e. 満月様顔貌 - Basedow病"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:12:21.566982",
+          "answer": "ad",
+          "confidence": 0.95,
+          "explanation": "下顎突出は成長期のgh過剰により生じる顔貌の変化であり先端巨大症の特徴である。また、満月様顔貌はcushing病の特徴的な顔貌である。眼球突出は主に甲状腺機能亢進症（basedow病）を示唆するが、選択肢でbasedow病と組み合わされていない。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F30",
+      "question_text": "正期産児で、日齢0より日齢28で高値となるのはどれか。2つ選べ。 ",
+      "choices": [
+        "a. IgA",
+        "b. IgG",
+        "c. IgM",
+        "d. 白血球",
+        "e. ヘモグロビン"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:12:30.514518",
+          "answer": "ad",
+          "confidence": 1.0,
+          "explanation": "igaと白血球は、正期産児で日齢0より日齢28で高値となることが知られています。igaは新生児期に上昇し、白血球数も出生直後より2〜3週間で増加します。一方、iggは産前より得られるため出生時すでに高値、igmは新生児期にまだ十分に産生されておらず、ヘモグロビンは新生児期の生理的低下傾向があるため、これらの選択肢は不適切です。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F31",
+      "question_text": "医療計画において二次医療圏単位で基準病床数が設定されるのはどれか。2つ選べ。 ",
+      "choices": [
+        "a. 一般病床",
+        "b. 結核病床",
+        "c. 精神病床",
+        "d. 療養病床",
+        "e. 感染症病床"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:12:36.513378",
+          "answer": "ac",
+          "confidence": 1.0,
+          "explanation": "一般病床と精神病床は、医療計画において二次医療圏単位で基準病床数が設定される。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F32",
+      "question_text": "肝生検が診断に有用なのはどれか。2つ選べ。 ",
+      "choices": [
+        "a. Gilert症候群",
+        "b. 肝外門脈閉塞症",
+        "c. 自己免疫性肝炎",
+        "d. Budd-Chiari症候群",
+        "e. 非アルコール性脂肪性肝炎"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:12:44.352977",
+          "answer": "ce",
+          "confidence": 1.0,
+          "explanation": "肝生検が診断に有用な疾患として、自己免疫性肝炎と非アルコール性脂肪性肝炎が該当する。gilbert症候群、肝外門脈閉塞症、budd-chiari症候群は、肝生検よりも他の検査方法で診断されることが多い。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F33",
+      "question_text": "高齢者の入院時の栄養評価で低栄養が疑われるのはどれか。2つ選べ。 ",
+      "choices": [
+        "a. 褥瘡",
+        "b. 難聴",
+        "c. 腰痛",
+        "d. 高血圧",
+        "e. 体重減少"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:12:51.817263",
+          "answer": "ae",
+          "confidence": 1.0,
+          "explanation": "褥瘡と体重減少は高齢者の低栄養状態を示唆する重要な指標である。特に、褥瘡の発生は皮膚の健康状態の悪化や蛋白質エネルギー低栄養状態と関連があり、体重減少は栄養摂取不足を示す直接的な指標となる。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F34",
+      "question_text": "アニオンギャップが開大する病態はどれか。3つ選べ。 ",
+      "choices": [
+        "a. 下痢",
+        "b. 糖尿病ケトアシドーシス",
+        "c. 乳酸アシドーシス",
+        "d. 尿細管性アシドーシス",
+        "e. 尿毒症"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:12:58.150366",
+          "answer": "bce",
+          "confidence": 1.0,
+          "explanation": "アニオンギャップが開大する主な病態には、糖尿病ケトアシドーシス（b）、乳酸アシドーシス（c）、尿毒症（e）が挙げられます。これらの病態では、血液中に固定酸が増加し、アニオンギャップが上昇します。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F35",
+      "question_text": "医療機関での感染性廃棄物の処理で正しいのはどれか。3つ選べ。 ",
+      "choices": [
+        "a. 収納容器を満杯まで使用する。",
+        "b. 収納容器を運搬する際は密閉する。",
+        "c. 注射針を段ボール容器に廃棄する。",
+        "d. 発生したその場で容器に収容する。",
+        "e. 使用した舌圧子は処理の対象となる。"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:13:06.033981",
+          "answer": "bde",
+          "confidence": 0.95,
+          "explanation": "感染性廃棄物の適切な処理には収納容器を運搬時に密閉し、発生した場所ですぐに容器に収容し、使用済みの医療器具も処理対象として適切に管理することが含まれます。収納容器を満杯にするのは避けるべきで、注射針は専用の容器に廃棄すべきです。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F36",
+      "question_text": "73歳の女性。左手関節痛を主訴に来院した。2時間前に自宅の玄関で転倒し、左手をついた際に痛みが出現した。左手関節に腫脹と圧痛を認める。左母指と示指の掌側にしびれと知覚鈍麻を認める。左手関節のエックス線写真(別冊No.1)を別に示す。障害されている神経はどれか。 ",
+      "choices": [
+        "a. 筋皮神経",
+        "b. 後骨間神経",
+        "c. 尺骨神経",
+        "d. 正中神経",
+        "e. 橈骨神経"
+      ],
+      "has_image": true,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:13:12.652052",
+          "answer": "d",
+          "confidence": 0.95,
+          "explanation": "左手関節痛と転倒の後、母指と示指の掌側にしびれと知覚鈍麻を認める。これらの症状は正中神経の障害を示唆する。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F37",
+      "question_text": "35歳の女性。挙児希望のため来院した。これまでに3回の妊娠歴があるが、いずれも胎児心拍確認後、妊娠6週、8週、7週で心拍が消失し流産した。不正性器出血はない。初経は13歳、月経周期28日型、整、持続5日間。内診で子宮は正常大で付属器を触知しない。次回妊娠に向けた検査で適切でないのはどれか。 ",
+      "choices": [
+        "a. 甲状腺機能検査",
+        "b. 子宮頸管長測定",
+        "c. 子宮卵管造影検査",
+        "d. 抗リン脂質抗体測定",
+        "e. カップルの染色体検査"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:13:21.618625",
+          "answer": "b",
+          "confidence": 0.9,
+          "explanation": "指示のない選択肢で1つ選ぶ必要がある。患者は反復流産の歴史があるため、内分泌異常、免疫学的要素、遺伝的要素、解剖学的な問題など、様々な要因を検討する必要がある。しかし、b. 子宮頸管長測定は通常、妊娠中に行われ、特に24週以降の前期早産リスクを評価するために使用される。流産の原因を評価するためには、他の選択肢の検査の方が関連性が高い。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F38",
+      "question_text": "68歳の女性。腹膜炎の手術後でICUに入院中である。3日前に消化管穿孔による急性汎発性腹膜炎で緊急手術が行われた。術後は気管挿管されたままICUに入室し、人工呼吸管理を受けている。本日から呼吸状態が悪化し、気管からピンク色泡沫状の分泌物が吸引された。心拍数90/分、整。血圧124/84mmHg。動脈血ガス分析(FIO20.7,呼気終末陽圧〈PEEP〉5cmH2O):pH7.32、PaCO242Torr、PaO269Torr、HCO3-23mEq/L。胸部エックス線写真(別冊No.2)を別に示す。心エコー検査で左室駆出率60%、左室壁運動に異常を認めない。有意な弁膜症を認めない。診断はどれか。 ",
+      "choices": [
+        "a. 肺膿瘍",
+        "b. 肺胞出血",
+        "c. 心原性肺水腫",
+        "d. 急性間質性肺炎",
+        "e. 急性呼吸窮迫症候群〈ARDS〉"
+      ],
+      "has_image": true,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:13:32.312499",
+          "answer": "c",
+          "confidence": 0.85,
+          "explanation": "患者は急性汎発性腹膜炎の手術後で、呼吸状態が悪化し、気管からピンク色泡沫状の分泌物が吸引された。動脈血ガス分析でpao2が69torrと低く、胸部x線写真では両側肺野に浸润陰影が reconocido（注：原文には不明瞭な部分があるが、浸潤陰影が認められるとしています）。心エコーで左室駆出率が60%と正常で、左室壁運動に異常を認めない。これらの所見から心原性肺水腫が最も妥当である。肺水腫の典型的な症状であるピンク色泡沫状の分泌物、低酸素血症が見られ、心機能が正常であるにもかかわらず肺浸潤陰影が認められるため、心原性肺水腫が強く疑われる。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F39",
+      "question_text": "58歳の男性。①*意識障害*のため救急車で搬入された。5年前に②*糖尿病*でインスリン自己注射を開始した。2年前から③*職場の人間関係が悪化*し、仕事を休みがちである。同時期から、④*食事は不規則*になり、飲酒量が増えた。また、糖尿病の治療を自己中断していた。数日前から姉との連絡が途絶えたため、姉が心配して自宅を訪ねたところ、意識がもうろうとして台所で倒れているのを発見し、救急車を要請した。16年前に離婚してからは独居である。意識レベルはJCSⅡ-20。身長174cm、体重58kg。体温37.0℃。心拍数92/分、整。血圧98/64mmHg。⑤*呼吸数24/分*。糖尿病ケトアシドーシスと診断され入院した。下線部のうち、社会的な健康規定要因(SocialDeterminants ofHealth)〈SDH〉はどれか。 ",
+      "choices": [
+        "a. ①",
+        "b. ②",
+        "c. ③",
+        "d. ④",
+        "e. ⑤"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:13:38.810514",
+          "answer": "c",
+          "confidence": 1.0,
+          "explanation": "③職場の人間関係が悪化することが社会的な健康規定要因に該当します。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F40",
+      "question_text": "26歳の女性。臨床研修1年目の医師。針刺しによる刺創で受診した。HBs抗原陽性患者の手術の助手を務めている最中に受傷した。ただちに患部を流水で洗浄した後、救急外来を受診した。これまでにB型肝炎罹患歴はなく、4年前にHBワクチンの接種歴がある。入職時のHBs抗体価は十分に高かった。適切な対応はどれか。 ",
+      "choices": [
+        "a. 経過観察",
+        "b. HBワクチン接種",
+        "c. 核酸アナログ製剤投与",
+        "d. 抗HBsヒト免疫グロブリン投与",
+        "e. HBワクチン接種および抗HBsヒト免疫グロブリン投与"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:13:45.832463",
+          "answer": "a",
+          "confidence": 0.85,
+          "explanation": "4年前にhbワクチンの接種歴があり、入職時のhbs抗体価が十分に高かったため、追加のhbワクチン接種や抗hbsヒト免疫グロブリン投与は必要ない。ただし、経過観察を行い、hbs抗原や肝機能の検査を定期的に行うことが適切である。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F41",
+      "question_text": "35歳の初妊婦(1妊0産)。妊娠34週4日、妊婦健康診査のため来院した。これまで定期的に妊婦健康診査を受けている。身長158cm、体重59kg(非妊時51kg)。血圧110/78mmHg。下腿に軽度の圧痕性浮腫を認める。腟鏡診で性器出血を認めない。腹部超音波検査では胎児発育と羊水量に異常を認めない。母子健康手帳の記載内容(別冊No.3A)と胎児心拍数陣痛図(別冊No.3B)とを別に示す。妊婦への説明で適切なのはどれか。 ",
+      "choices": [
+        "a. 「入院が必要です」",
+        "b. 「血液検査が必要です」",
+        "c. 「妊娠経過は順調です」",
+        "d. 「塩分を制限しましょう」",
+        "e. 「体重が過度に増加しています」"
+      ],
+      "has_image": true,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:13:53.178995",
+          "answer": "c",
+          "confidence": 0.9,
+          "explanation": "妊婦の身長、体重、血圧、浮腫、性器出血、胎児発育、羊水量、胎児心拍数などの検査結果に特記すべき異常がないことから、妊娠経過は順調であると判断できる。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F42",
+      "question_text": "40歳の男性。特定健康診査で肥満を指摘され来院した。仕事はデスクワークが主体で、運動はしていない。身長171cm、体重100kg。脈拍84/分、整。血圧146/94mmHg。呼吸数17/分。尿所見:蛋白1+、糖1+。血液生化学所見:総蛋白7.1g/dL、アルブミン3.9g/dL、AST75U/L、ALT26U/L、Y-GT89U/L(基準13~64)、尿素窒素21mg/dL、クレアチニン1.3mg/dL、尿酸8.9mg/dL、血糖148mg/dL、HbAlc6.7%(基準4.9~6.0)、トリグリセリド260mg/dL、HDLコレステロール41mg/dL、LDLコレステロール181mg/dL。体重の減量を目的とした食事指導を行った。食事摂取基準に基づいた指導内容で適切なのはどれか。 ",
+      "choices": [
+        "a. 食塩相当量の摂取は15gとする。",
+        "b. 総摂取エネルギー量は4,500k",
+        "c. alとする。c脂質の摂取は総摂取エネルギー量の20~30%とする。",
+        "d. 蛋白質の摂取は総摂取エネルギー量の5~10%とする。",
+        "e. 炭水化物の摂取は総摂取エネルギー量の30~40%とする。"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:13:58.484844",
+          "answer": "c",
+          "confidence": 0.9,
+          "explanation": "食事摂取基準では、脂質の摂取量は総摂取エネルギー量の20~30%とされています。患者さんは肥満であり、食事療法の目標は体重の減量であり、脂質摂取量の適切な範囲は重要な指導内容となります。他の選択肢は適切な基準値を逸脱しています。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F43",
+      "question_text": "78歳の男性。右臀部周辺の痛みを主訴に来院した。1年前から前立腺癌に対しホルモン療法施行中である。3日前に旅行から帰宅後に右臀部の痛みと腫れを自覚した。痛みは徐々に右臀部全般に広がった。意識は清明。体温36.2℃。脈拍96/分、整。血圧102/68mmHg。呼吸数16/分。SpO298%(roomair)。右大腿から腰部にかけて紫斑を認める。心音と呼吸音とに異常を認めない。腹部は平坦、軟で、肝·脾を触知しない。右臀部は硬く腫脹し、圧痛を認める。血液所見:赤血球391万、Hb9.8g/dL、Ht32%、白血球7,950(好中球72%、好酸球1%、単球9%、リンパ球18%)、血小板35万。PT-INR1.0(基準0.9~1.1)、APTT72.4秒(基準対照32.2)、フィブリノゲン433mg/dL(基準186~355)、FDP14μg/mL(基準10以下)。血液生化学所見:総蛋白7.4g/dL、AST24U/L、ALT40U/L、LD218U/L(基準124~222)、尿素窒素10mg/dL、クレアチニン0.7mg/dL。CRP0.8mg/dL.臀部痛の原因はどれか。 ",
+      "choices": [
+        "a. 筋肉内出血",
+        "b. 坐骨神経痛",
+        "c. 腸腰筋膿瘍",
+        "d. 大腿骨頭壊死症",
+        "e. 変形性股関節症"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:14:05.844955",
+          "answer": "a",
+          "confidence": 0.9,
+          "explanation": "患者は高齢で前立腺癌のホルモン療法施行中であり、右臀部から腰部にかけて紫斑を認める。血液検査ではpt-inrは基準範囲内であるもののapttが延長しており、fdpが上昇しており、血液凝固因子の異常が示唆されます。これらの所見から筋肉内出血が有力と考えられます。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F44",
+      "question_text": "15歳の女子。定期受診で来院した。10歳時に全身性エリテマトーデス〈SLE〉と診断され、小児科に通院している。少量グルココルチコイド、ミコフェノール酸モフェチル及びヒドロキシクロロキンを内服し病状は安定している。13歳時にひとりで薬の管理をさせたところ、処方数と残薬数が合わないことから怠薬が判明した。以後、母親が薬の管理をしている。発達に問題はなく、学校の成績は良好で、今春、志望校に合格した。高校生になると忙しくなるので、本人を連れて受診できるか、母親が心配している。患者は質問に答えるのみで、自らの発言はない。高校進学を前に将来的な内科への移行を見据え、今後の管理を話し合うことにした。適切な対応はどれか。 ",
+      "choices": [
+        "a. 以前の怠薬歴を注意する。",
+        "b. 本人のみに薬の自己管理をさせる。",
+        "c. 自宅での内服管理は引き続き母親に任せる。",
+        "d. 母親のみに通院してもらい処方箋を発行する。",
+        "e. 本人に自身の病気をどれくらい理解しているか確認する。"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:14:14.045585",
+          "answer": "e",
+          "confidence": 0.85,
+          "explanation": "患者は高校進学を機に将来的な内科への移行を見据えているため、本人の病気理解度を確認することが重要です。この確認は、患者が自身の病状を理解し、自己管理の能力があるかを評価するために必要です。また、本人の理解度を確認することで、今後の管理について適切なアドバイスや支援を提供できます。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F45",
+      "question_text": "1歳10か月の男児。けいれんを主訴に両親に連れられて夜間救急外来を受診した。2日前から咳嗽と鼻汁がみられていた。本日の夕方までは元気で食欲も良好であったが、夜になって発熱に気付いた。下痢や嘔吐はなく、排尿も良好であった。その後左右差のない全身を強直させるけいれんが出現し、2分間持続した。1歳2か月時に同様のけいれんの既往がある。予防接種は、予定どおり接種している。意識は清明。身長84cm、体重11.2kg。体温38.5℃。脈拍128/分、整。血圧100/60mmHg。呼吸数28/分。SpO299%(roomair)。皮膚のツルゴールの低下はない。瞳孔は左右差なく、対光反射は正常。咽頭に軽度の発赤を認める。鼓膜に異常を認めない。胸部と腹部とに異常を認めない。項部硬直とKernig徴候とを認めない。四肢の筋緊張は正常で、腱反射の亢進を認めない。救急外来での親への説明で適切なのはどれか。 ",
+      "choices": [
+        "a. 「輸液が必要です」",
+        "b. 「抗菌薬を投与します」",
+        "c. 「ビタミンKを投与します」",
+        "d. 「1時間後に再度診察します」",
+        "e. 「抗けいれん薬を投与します」"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:14:21.171965",
+          "answer": "d",
+          "confidence": 0.85,
+          "explanation": "患児は発熱性けいれんの疑いが強く、生命征候が安定しており、神経学的所見に著しい異常は認められない。よって、1時間後に再度診察を行い経過観察することが適切である。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F46",
+      "question_text": "75歳の男性。がん検診で便潜血反応陽性を指摘され来院した。下部消化管内視鏡検査でS状結腸癌と診断され、結腸切除を予定している。約15年前から糖尿病を指摘され治療中である。喫煙は約20本/日であったが、5年前から禁煙している。飲酒は焼酎1合/日。身長162cm、体重59kg。体温36.6℃。脈拍76/分、整。血圧132/72mmHg。心音と呼吸音とに異常を認めない。左下腹部に圧痛を認める。尿所見:蛋白(一)、糖3+、ケトン体(一)。血液生化学所見:血糖180mg/dL、HbAlc7.1%(基準4.9~6.0)。この患者の周術期血糖コントロールの目的で適切なのはどれか。 ",
+      "choices": [
+        "a. 創感染の予防",
+        "b. 脳血管障害の予防",
+        "c. 心血管イベントの予防",
+        "d. 深部静脈血栓症の予防",
+        "e. 糖尿病性神経障害の予防"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:14:29.837069",
+          "answer": "a",
+          "confidence": 0.85,
+          "explanation": "周術期の血糖コントロールは、創感染の予防が主な目的であり、術後合併症を減らすために重要である。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F47",
+      "question_text": "28歳の初産婦(1妊0産)。妊娠40週、陣痛発来のため入院した。入院時内診所見で、子宮口は3cm開大、展退度50%、児頭下降度はSP-2cm。第1頭位。小泉門が先進し、3時方向に触知する。入院8時間後の内診所見で、子宮口は8cm開大、展退度80%、児頭下降度はSP±0cm。小泉門が先進し、6時方向に触知する。分娩経過の評価で正しいのはどれか。 ",
+      "choices": [
+        "a. 正常経過",
+        "b. 第1回旋の異常",
+        "c. 第2回旋の異常",
+        "d. 第3回旋の異常",
+        "e. 第4回旋の異常"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:14:36.363697",
+          "answer": "a",
+          "confidence": 0.9,
+          "explanation": "児頭下降度がsp±0cmまで進み、展退度も80%となり子宮口も8cm開大してきています。小泉門の進行方向の変化も正常な回旋の過程を示しています。以上の理由から、この分娩経過は正常と判断されます。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F48",
+      "question_text": "34歳の男性。会社員。昼休みに、屋上で下を覗き込んでいるところを、上司が見かけて、上司に付き添われて健康管理室に来室した。産業医が面談したところ、この社員が現在取り組んでいる仕事は難航しており、当面の間、解決のめどが立ちそうにないとのことであった。体調面では、ここ1か月の間、体の疲れが取れず、眠れていない。また、気分の落ち込みが激しく、食事もほとんど摂れていないようである。面談中に「自分など会社のお荷物だ。いっそのこと死んでしまいたい。昨日、練炭を買ってきました」と発言があった。直近3か月の月の残業時間は100時間、110時間、120時間であった。産業医から精神科を受診するように伝えたが、忙しくて時間が取れないと言っている。この社員は一人暮らしをしている。面談実施後に、産業医から上司に対する発言で適切なのはどれか。 ",
+      "choices": [
+        "a. 「配置転換をしてください」",
+        "b. 「労災を申請してください」",
+        "c. 「疲れているので、今日は一人で早退させてください」",
+        "d. 「残業をさせる時は、夕食をきちんととらせてください」",
+        "e. 「今から会社の人が付き添って、精神科を受診させてください」"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:14:45.429586",
+          "answer": "e",
+          "confidence": 1.0,
+          "explanation": "この社員は自殺の意向を示しており、すぐに精神科の専門的な評価と治療が必要である。会社の人が付き添って受診させることが最適な対応である。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F49",
+      "question_text": "52歳の男性。腎機能低下を指摘され妻とともに来院した。1年前から下腿の浮腫を自覚していた。2週間前から浮腫が悪化したため、自宅近くの医療機関を受診したところ腎機能低下を指摘され、腎臓専門医を紹介受診した。30歳から高血圧症と糖尿病を指摘され、内服治療中であったが、通院は不定期であった。5年前に大腸ポリープで内視鏡的切除術を受けている。身長172cm、体重75kg。脈拍84/分、整。血圧156/92mmHg。SpO298%(roomair)。胸部に異常を認めない。両下腿に軽度の浮腫を認める。尿所見:蛋白3+、潜血(一)、1日尿蛋白6.5g/日。血液所見:赤血球316万、Hb9.8g/dL、Ht.31%、白血球5,700、血小板17万。血液生化学所見:総蛋白5.7g/dL、アルブミン3.4g/dL、尿素窒素68mg/dL、クレアチニン6.5mg/dL、eGFR8.1mL/分/1.73m2、HbAlc6.3%(基準4.9~6.0)、Na144mEq/L、K5.4mEq/L、Cl102mEq/L。腎代替療法として腹膜透析もしくは妻をドナーとした生体腎移植を希望している。この患者に対する腹膜透析の説明で適切なのはどれか。 ",
+      "choices": [
+        "a. 「週3回の通院が必要です」",
+        "b. 「糖尿病があるため適応はありません」",
+        "c. 「腹膜透析開始後に食事制限は必要ないです」",
+        "d. 「腹膜透析を行ってからでも腎移植はできます」",
+        "e. 「内視鏡的切除術の治療歴があるため適応はありません」"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:14:52.865943",
+          "answer": "d",
+          "confidence": 0.9,
+          "explanation": "腹膜透析を行ってからでも腎移植は可能なため、dが正解です。aは血液透析の特性を述べています。bは糖尿病がある場合でも適応はあります。cは誤りで、腹膜透析開始後も食事制限は必要です。eは内視鏡的切除術の治療歴が腹膜透析の適応に影響を与えません。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F50",
+      "question_text": "45歳の男性。2か月前から生じた右腋窩の皮疹を主訴に来院した。被覆皮膚と癒着し波動を触れる径20mmの皮疹を認める。腋窩の写真(別冊No.4A)と皮疹部の超音波像(別冊No.4B)とを別に示す。この皮疹の種類はどれか。 ",
+      "choices": [
+        "a. 丘疹",
+        "b. 苔癬",
+        "c. 囊腫",
+        "d. 膿疱",
+        "e. 膨疹"
+      ],
+      "has_image": true,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:15:01.003679",
+          "answer": "c",
+          "confidence": 0.85,
+          "explanation": "被覆皮膚と癒着し波動を触れる皮疹の特徴は、囊腫を示している可能性が高い。囊腫は皮膚の下にできる袋状の腫れで、中に液体や半固体の物質が入っているため、波動を触れることが多い。また、径20mmと较大なサイズも囊腫の特徴に合致している。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F51",
+      "question_text": "1歳6か月の男児。1歳6か月児健康診査のため母親に連れられて来院した。在胎40週、身長50cm、体重2,900g、正常分娩で出生した。来院時の身長81cm、体重10.5kg。1歳で離乳食から幼児食に移行し、1日3回の食事や間食のリズムはついてきたが、同じものしか食べない。適切な指導はどれか。 ",
+      "choices": [
+        "a. 「生卵かけご飯を食べさせてみてはどうですか」",
+        "b. 「大人の食事と同じくらい味つけを濃くしてみましょう」",
+        "c. 「今は食事を楽しむことが大事ですからゆっくり進めていきましょう」",
+        "d. 「ミニトマトやブドウはのど越しがよいのでそのまま食べさせましょう」",
+        "e. 「口をあけたタイミングで食べさせたいものを口に押し込んでみましょう」"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:15:08.670726",
+          "answer": "c",
+          "confidence": 0.9,
+          "explanation": "1歳6か月の幼児において、急激な食事の変化や強制は好ましくありません。選択肢cは、食事を楽しむことを大事にし、徐々に新しい食事に慣れていくことを促す適切な指導です。其他の選択肢は、幼児の消化器官への負担や食事への抵抗感を増加させる恐れがあります。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F52",
+      "question_text": "68歳の女性。骨粗鬆症を心配して来院した。若いときよりも身長が約2cm低くなり、娘からは背中が丸くなっていると指摘されている。腰痛の訴えはない。2年前に腰椎圧迫骨折の既往がある。立位姿勢は軽度の前屈位。腰部に圧痛や叩打痛を認めない。下肢の運動障害や知覚障害を認めない。腰椎エックス線写真では第1腰椎の圧迫骨折を認めた。骨密度検査〈DXA〉では、腰椎は若年成人平均値〈YAM〉85%、大腿骨頭部はYAM82%であった。骨粗鬆症治療薬の開始時期で適切なのはどれか。 ",
+      "choices": [
+        "a. 現時点",
+        "b. 腰痛が出現した時",
+        "c. 再度骨折を生じた時",
+        "d. 下肢の神経障害が出現した時",
+        "e. 腰椎または大腿骨の骨密度がYAM70%以下となった時"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:15:16.228680",
+          "answer": "a",
+          "confidence": 1.0,
+          "explanation": "患者は既往に腰椎圧迫骨折があり、また骨密度検査でも腰椎と大腿骨頭部の骨密度がyamの85%と82%であり、骨粗鬆症の診断基準を満たしています。したがって、骨粗鬆症治療薬の開始は現時点で適切です。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F53",
+      "question_text": "45歳の女性。会社の定期健康診断で高血圧を指摘された。この結果を踏まえて、会社の産業保健チームでトータルヘルスプロモーションプラン〈THP〉を検討することになった。このプランに含まれないのはどれか。 ",
+      "choices": [
+        "a. 降圧薬の処方",
+        "b. 運動の計画立案",
+        "c. 塩分制限食の調理指導",
+        "d. 飲酒と健康に関する講演会",
+        "e. 生活習慣の改善に伴う精神的ストレスのケア"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:15:23.371353",
+          "answer": "a",
+          "confidence": 1.0,
+          "explanation": "thpの目的は、生活習慣の改善や予防策を推進し、疾患の進行を防ぐことです。降圧薬の処方は、医師の診断と処方が必要な治療法であり、thpに含まれるとは言えません。他の項目は全て生活習慣の改善に関連するため、aが適切な回答となります。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F54",
+      "question_text": "1歳の女児。発熱と皮疹を主訴に母親に連れられて来院した。5日前から39~40℃の発熱が続いていたが、活気良好であったため自宅で様子をみていた。昨夜、母親が皮疹に気付いたという。意識は清明。体温39.4℃。脈拍144/分、整。血圧84/62mmHg。呼吸数28/分。SpO2100%(roomair)。受診時の患児の顔面、上腕および背部の写真(別冊No.5A~C)を別に示す。口唇と舌に発赤を認める。咽頭に発赤を認めない。両側の頭部に径2.5cmのリンパ節を数個ずつ触知する。心音と呼吸音とに異常を認めない。腹部は平坦、軟で、肝·脾を触知しない。四肢末端に紅斑と浮腫を認める。血液所見:赤血球400万、Hb11.5g/dL、Ht34%、白血球17,600(桿状核好中球5%、分葉核好中球62%、単球4%、リンパ球29%)、血小板45万、フィブリノゲン420mg/dL(基準186~355)。血液生化学所見:総蛋白6.0g/dL、アルブミン3.0g/dL、総ビリルビン0.9mg/dL、AST240U/L、ALT225U/L、LD380U/L(基準202~437)、尿素窒素10mg/dL、クレアチニン0.4mg/dL、尿酸4.0mg/dL、血糖98mg/dL、Na131mEq/L.K4.2mEq/L,C199mEq/L.CRP7.8mg/dL.必要な検査はどれか。 ",
+      "choices": [
+        "a. 眼底検査",
+        "b. 皮膚生検",
+        "c. 頸部造影CT",
+        "d. 心エコー検査",
+        "e. 心筋血流シンチグラフィ"
+      ],
+      "has_image": true,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:15:31.732180",
+          "answer": "d",
+          "confidence": 0.8,
+          "explanation": "発熱と皮疹を主訴とした幼児で、心エコー検査を行うことで川崎病の心血管合併症（特に冠動脈異常）を評価できます。川崎病の診断基準には心血管系の異常が含まれており、本例の臨床症状や血液所見から川崎病の可能性が高いと考えられます。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F55",
+      "question_text": "35歳の男性。頭部を打撲したため救急外来を受診した。約1時間前に運動中に転倒し後頭部を打撲した。受傷時に意識消失は認めなかった。来院時、意識は清明。1軽度の頭痛と2後頸部痛を訴えている。身長168cm、体重65kg。3体温37.3℃。脈拍76/分、整。血圧124/78mmHg。呼吸数20/分。神経診察で脳神経系に異常を認めず、四肢の麻痺も認めないが、4打撲時から現在までの記憶がない。5打撲部位の圧痛を認めたが、同部位に肉眼的な異常は認めなかった。下線部のうち、頭部CTを行うべき所見はどれか。 ",
+      "choices": [
+        "a. 1",
+        "b. 2",
+        "c. 3",
+        "d. 4",
+        "e. 5"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:15:39.374500",
+          "answer": "d",
+          "confidence": 1.0,
+          "explanation": "打撲時から現在までの記憶がなく、逆行性無記憶が存在する場合、頭部ctを行うべきである。これは頭部外傷の後遺症として重要な所見であり、脳挫傷や脳内血腫などの合併症を排除するためにct検査が必要となる。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F56",
+      "question_text": "78歳の女性。左季肋部痛を主訴に来院した。6年前から脾臓原発の悪性リンパ腫に対して薬物による抗癌治療を継続しているが再発を繰り返しており、薬物による抗癌治療を行わない方針となった。1週間前から悪性リンパ腫による癌性疼痛に対してモルヒネの経口投与を開始したが疼痛が強くなり入院した。意識は清明。体温36.8℃。脈拍74/分、整。血圧132/78mmHg。呼吸数14/分。SpO296%(roomair)。心音と呼吸音とに異常を認めない。腹部は平坦、軟。左季肋下に脾を4cm触知し、圧痛を認める。腹部CTで再発による脾臓の腫大を認めている。入院後、嚥下障害が出現し内服が困難となったためモルヒネ経口投与を中止し、モルヒネ皮下注射を開始した。注意すべき症状や徴候はどれか。2つ選べ。 ",
+      "choices": [
+        "a. 発熱",
+        "b. 便秘",
+        "c. 口内炎",
+        "d. 皮膚潰瘍",
+        "e. 呼吸数低下"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:15:49.923202",
+          "answer": "be",
+          "confidence": 1.0,
+          "explanation": "嗳吐や嘔吐、嚥下障害などによりモルヒネの経口投与が困難となった場合、皮下投与が選択されます。この際、注意すべき症状や徴候として便秘と呼吸抑制があります。また、腫瘍の進行や化学療法の影響による口内炎や皮膚潰瘍、感染症による発熱も可能性としては考えられますが、特に皮下モルヒネの副作用として注目すべきは便秘と呼吸数低下です。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F57",
+      "question_text": "38歳の褥婦。産後1か月の健診のため来院した。初めての児を1か月前に経腟分娩した。体温36.5℃。脈拍80/分、整。血圧126/76mmHg。子宮復古は良好で、悪露は正常であった。母乳哺育を行っているが、うまくできているか心配でよく眠れない。本人、夫ともに兄弟姉妹はおらず、両親は他界している。最近、転居したため、周囲に親しい友人はいない。エジンバラ産後うつ病質問票〈EPDS〉は14点(基準8点以下)であった。児は、出生体重3,096g、発育は順調である。適切な対応はどれか。2つ選べ。 ",
+      "choices": [
+        "a. 抗精神病薬を処方する。",
+        "b. 精神科への受診を提案する。",
+        "c. 児と分離することを目的に本人を入院させる。",
+        "d. 本人の同意を得て市町村に患者情報を伝える。",
+        "e. 母乳哺育を中止し人工乳哺育にするように指導する。"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:15:57.272215",
+          "answer": "bd",
+          "confidence": 0.85,
+          "explanation": "epdsの得点が14点と基準値8点を超えているため、産後うつ病の疑いがあります。精神科への受診（b）は重要です。また、社会的支援が必要であり、同意を得て市町村に連絡（d）することも適切です。抗精神病薬（a）、入院（c）、母乳哺育の中止（e）は現時点では適切でありません。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F58",
+      "question_text": "76歳の男性。倦怠感を主訴に来院した。2か月前から食事をとってもおいしくなく、倦怠感が出現した。趣味にしていた野球観戦をしなくなり、気分が落ち込んでいる。外出頻度が減り、1日のほとんどを自宅内で過ごしている。身長168cm、体重62kg。体温36.1℃。脈拍64/分、整。血圧138/88mmHg。心音と呼吸音とに異常を認めない。腹部は平坦、軟で、肝·脾を触知しない。四肢の筋力は保たれており、起立と歩行に異常を認めない。改訂長谷川式簡易知能評価スケールは30点(30点満点)。血液所見:Hb14.2g/dL、白血球6,700。血液生化学所見:総蛋白6.9g/dL、アルブミン4.2g/dL、尿素窒素18mg/dL、クレアチニン0.9mg/dL.この患者の状態で正しいのはどれか。2つ選べ。 ",
+      "choices": [
+        "a. 低栄養",
+        "b. うつ状態",
+        "c. 閉じこもり",
+        "d. 認知機能低下",
+        "e. ロコモティブシンドローム"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:16:10.861508",
+          "answer": "bd",
+          "confidence": 0.95,
+          "explanation": "患者は倦怠感、食欲不振、趣味への興味喪失、気分の落ち込み、外出頻度の低下を示しており、うつ状態の可能性が高い。さらに、1日のほとんどを自宅内ですごしていることから、閉じこもりの状態にあると考えられる。認知機能低下の兆候はなく、改訂長谷川式簡易知能評価スケールも正常範囲であるため、dは選択せず。低栄養やロコモティブシンドロームの明確な所見は認められなかった。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F59",
+      "question_text": "56歳の男性。左下腿の挫創を主訴に来院した。5日前に発生した地震で、倒れた家具が接触して受傷したが治療できずそのままにしていた。2日前から創部の痛みが悪化し膿性浸出液を認めるようになった。来院時の創部の写真(別冊No.6)を別に示す。創部を消毒する前に行うのはどれか。2つ選べ。 ",
+      "choices": [
+        "a. 抗菌薬外用",
+        "b. 洗浄",
+        "c. 創部培養",
+        "d. ドレーン留置",
+        "e. 縫合"
+      ],
+      "has_image": true,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:16:19.207410",
+          "answer": "bc",
+          "confidence": 0.9,
+          "explanation": "創部の洗浄と培養は、感染の疑いがある場合の標準的な初期対応であり、消毒前にこれらの処置を行うことが適切です。抗菌薬外用、ドレーン留置、縫合は創部の状態を評価した後に検討されるべきです。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F60",
+      "question_text": "76歳の男性。強いふらつきを主訴に救急車で搬入された。現病歴:3か月前から倦怠感やふらつきが目立ち、寒がるようになった。動作緩慢、便秘および経口摂取減少も出現したが加齢によるものと本人が思い様子をみていた。本日、倦怠感とふらつきが増強したため妻が救急車を要請した。既往歴:1年4か月前に中咽頭癌に対し化学放射線療法が施行され、6か月ごとに定期通院中。生活歴:70歳まで会社役員。妻と2人暮らし。喫煙歴はない。飲酒は日本酒1~2合/日を40年間。家族歴:弟が慢性肝炎。現症:意識は清明。身長165cm、体重60kg。体温35.8℃。心拍数48/分、整。血圧98/68mmHg。呼吸数20/分。SpO297%(roomair)。皮膚は乾燥しているが、色素沈着は認めない。眼瞼結膜と眼球結膜とに異常を認めない。口腔内は乾燥しているが、咽頭発赤は認めない。頸静脈の怒張を認めない。甲状腺腫と頸部リンパ節とを触知しない。心音と呼吸音とに異常を認めない。腹部は平坦、軟で、肝·脾を触知しない。検査所見:尿所見:蛋白(一)、糖(一)、ケトン体(一)、潜血(一)。血液所見:赤血球362万、Hb11.7g/dL、Ht35%、白血球4,100、血小板14万。血液生化学所見:総蛋白6.3g/dL、総ビリルビン0.5mg/dL、AST34U/L、ALT32U/L、LD220U/L(基準124~222)、尿素窒素15mg/dL、クレアチニン1.1mg/dL、血糖92mg/dL、総コレステロール288mg/dL、Na138mEq/L、K2.8mEq/L、Cl101mEq/L、TSH98μU/mL(基準0.2~4.0)、FT31.8pg/mL(基準2.3~4.3)、FT40.1ng/dL(基準0.8~2.2)、コルチゾール12.4μg/dL(基準5.2~12.6)。CRP0.1mg/dL。心電図は洞性徐脈でST-T変化を認めない。胸部エックス線写真で心胸郭比48%。 この患者で予測される身体所見はどれか。2つ選べ。 ",
+      "choices": [
+        "a. 多毛",
+        "b. 甲状腺圧痛",
+        "c. 両手指振戦",
+        "d. 非圧痕性浮腫",
+        "e. アキレス腱反射弛緩相遅延"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:16:26.496795",
+          "answer": "de",
+          "confidence": 0.95,
+          "explanation": "甲状腺機能低下症（低甲状腺機能状態）が疑われ、その特徴的な所見としては非圧痕性浮腫（d）とアキレス腱反射弛緩相遅延（e）が含まれます。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F61",
+      "question_text": "76歳の男性。強いふらつきを主訴に救急車で搬入された。現病歴:3か月前から倦怠感やふらつきが目立ち、寒がるようになった。動作緩慢、便秘および経口摂取減少も出現したが加齢によるものと本人が思い様子をみていた。本日、倦怠感とふらつきが増強したため妻が救急車を要請した。既往歴:1年4か月前に中咽頭癌に対し化学放射線療法が施行され、6か月ごとに定期通院中。生活歴:70歳まで会社役員。妻と2人暮らし。喫煙歴はない。飲酒は日本酒1~2合/日を40年間。家族歴:弟が慢性肝炎。現症:意識は清明。身長165cm、体重60kg。体温35.8℃。心拍数48/分、整。血圧98/68mmHg。呼吸数20/分。SpO297%(roomair)。皮膚は乾燥しているが、色素沈着は認めない。眼瞼結膜と眼球結膜とに異常を認めない。口腔内は乾燥しているが、咽頭発赤は認めない。頸静脈の怒張を認めない。甲状腺腫と頸部リンパ節とを触知しない。心音と呼吸音とに異常を認めない。腹部は平坦、軟で、肝·脾を触知しない。検査所見:尿所見:蛋白(一)、糖(一)、ケトン体(一)、潜血(一)。血液所見:赤血球362万、Hb11.7g/dL、Ht35%、白血球4,100、血小板14万。血液生化学所見:総蛋白6.3g/dL、総ビリルビン0.5mg/dL、AST34U/L、ALT32U/L、LD220U/L(基準124~222)、尿素窒素15mg/dL、クレアチニン1.1mg/dL、血糖92mg/dL、総コレステロール288mg/dL、Na138mEq/L、K2.8mEq/L、Cl101mEq/L、TSH98μU/mL(基準0.2~4.0)、FT31.8pg/mL(基準2.3~4.3)、FT40.1ng/dL(基準0.8~2.2)、コルチゾール12.4μg/dL(基準5.2~12.6)。CRP0.1mg/dL。心電図は洞性徐脈でST-T変化を認めない。胸部エックス線写真で心胸郭比48%。 この患者の血液検査で高値と予想されるのはどれか。2つ選べ。 ",
+      "choices": [
+        "a. ALP",
+        "b. アルブミン",
+        "c. クレアチンキナーゼ",
+        "d. LDLコレステロール",
+        "e. 抗TSH受容体抗体〈TRAb〉"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:16:35.463626",
+          "answer": "ad",
+          "confidence": 0.85,
+          "explanation": "患者は甲状腺機能低下症（tsh高値、ft3およびft4低値）を疑われる状況にあり、この病態ではalpとldlコレステロールが高値となることが多い。alpは甲状腺機能低下症で亢進し、ldlコレステロールも上昇することが知られている。他の選択肢は甲状腺機能低下症との直接的な関連が薄い。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F62",
+      "question_text": "76歳の男性。強いふらつきを主訴に救急車で搬入された。現病歴:3か月前から倦怠感やふらつきが目立ち、寒がるようになった。動作緩慢、便秘および経口摂取減少も出現したが加齢によるものと本人が思い様子をみていた。本日、倦怠感とふらつきが増強したため妻が救急車を要請した。既往歴:1年4か月前に中咽頭癌に対し化学放射線療法が施行され、6か月ごとに定期通院中。生活歴:70歳まで会社役員。妻と2人暮らし。喫煙歴はない。飲酒は日本酒1~2合/日を40年間。家族歴:弟が慢性肝炎。現症:意識は清明。身長165cm、体重60kg。体温35.8℃。心拍数48/分、整。血圧98/68mmHg。呼吸数20/分。SpO297%(roomair)。皮膚は乾燥しているが、色素沈着は認めない。眼瞼結膜と眼球結膜とに異常を認めない。口腔内は乾燥しているが、咽頭発赤は認めない。頸静脈の怒張を認めない。甲状腺腫と頸部リンパ節とを触知しない。心音と呼吸音とに異常を認めない。腹部は平坦、軟で、肝·脾を触知しない。検査所見:尿所見:蛋白(一)、糖(一)、ケトン体(一)、潜血(一)。血液所見:赤血球362万、Hb11.7g/dL、Ht35%、白血球4,100、血小板14万。血液生化学所見:総蛋白6.3g/dL、総ビリルビン0.5mg/dL、AST34U/L、ALT32U/L、LD220U/L(基準124~222)、尿素窒素15mg/dL、クレアチニン1.1mg/dL、血糖92mg/dL、総コレステロール288mg/dL、Na138mEq/L、K2.8mEq/L、Cl101mEq/L、TSH98μU/mL(基準0.2~4.0)、FT31.8pg/mL(基準2.3~4.3)、FT40.1ng/dL(基準0.8~2.2)、コルチゾール12.4μg/dL(基準5.2~12.6)。CRP0.1mg/dL。心電図は洞性徐脈でST-T変化を認めない。胸部エックス線写真で心胸郭比48%。 初療室で輸液を開始した。次に行う対応で適切なのはどれか。 ",
+      "choices": [
+        "a. 利尿薬静注",
+        "b. ヨウ素含有食品摂取",
+        "c. 甲状腺ホルモン薬内服",
+        "d. 脂質異常症治療薬内服",
+        "e. 塩化カリウム液急速静注"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:16:49.423712",
+          "answer": "c",
+          "confidence": 0.95,
+          "explanation": "患者は甲状腺機能低下症の所見を示しており（tshが98μu/mlと著しく上昇しており、ft3とft4は低値）、心拍数が48/分と徐脈を呈し、倦怠感や寒さ、便秘、経口摂取減少などの症状が認められます。加えて、輸液が開始されていることから、甲状腺ホルモン製剤の投与が適切と考えられます。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F63",
+      "question_text": "64歳の女性。嘔吐を主訴に来院した。現病歴:今朝、悪心で目が覚め、黒色物を嘔吐したため、夫とともに受診した。既往歴:40歳時に胆囊炎で手術。Parkinson病でレボドパ〈L-dopa〉を内服している。2週間前に生じた右大腿部痛で、NSAIDを内服している。52歳で閉経。生活歴:夫と2人暮らし。喫煙歴と飲酒歴はない。家族歴:母がうつ病にて投薬治療中。現症:意識は清明。身長160cm、体重48kg。体温36.4℃。脈拍108/分、整。血圧108/60mmHg。呼吸数20/分。SpO297%(roomair)。眼瞼結膜と眼球結膜とに異常を認めない。頭静脈の怒張を認めない。心音と呼吸音とに異常を認めない。腹部は平坦、軟で右季肋部に小手術痕を認める。腸雑音は亢進している。上腹部正中に軽度の圧痛を認める。肝·脾を触知しない。検査所見:血液所見:赤血球385万、Hb11.7g/dL、Ht35%、白血球8,500、血小板22万、PT-INR1.1(基準0.9~1.1)。血液生化学所見:総蛋白6.2g/dL、アルブミン3.8g/dL、総ビリルビン1.0mg/dL、AST28U/L、ALT23U/L、LD214U/L(基準124~222)、ALP41U/L(基準38~113)、Y-GT10U/L(基準9~32)、CK83U/L(基準41~153)、尿素窒素25mg/dL、クレアチニン0.6mg/dL、尿酸4.6mg/dL、血糖112mg/dL、HbAlc5.8%(基準4.9~6.0)、Na137mEq/L、K4.1mEq/L、C198mEq/L。 まず行うべき対応はどれか。 ",
+      "choices": [
+        "a. 輸液",
+        "b. 輸血",
+        "c. 抗菌薬投与",
+        "d. アトロピン投与",
+        "e. ノルアドレナリン投与"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:16:57.071150",
+          "answer": "a",
+          "confidence": 0.8,
+          "explanation": "黒色物を嘔吐しており、上部消化管出血の可能性が高い。血圧が108/60mmhgと低めで、脈拍が108/分とやや速いことから血容量不足が考えられる。まず行うべきは輸液による循環管理である。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F64",
+      "question_text": "64歳の女性。嘔吐を主訴に来院した。現病歴:今朝、悪心で目が覚め、黒色物を嘔吐したため、夫とともに受診した。既往歴:40歳時に胆囊炎で手術。Parkinson病でレボドパ〈L-dopa〉を内服している。2週間前に生じた右大腿部痛で、NSAIDを内服している。52歳で閉経。生活歴:夫と2人暮らし。喫煙歴と飲酒歴はない。家族歴:母がうつ病にて投薬治療中。現症:意識は清明。身長160cm、体重48kg。体温36.4℃。脈拍108/分、整。血圧108/60mmHg。呼吸数20/分。SpO297%(roomair)。眼瞼結膜と眼球結膜とに異常を認めない。頭静脈の怒張を認めない。心音と呼吸音とに異常を認めない。腹部は平坦、軟で右季肋部に小手術痕を認める。腸雑音は亢進している。上腹部正中に軽度の圧痛を認める。肝·脾を触知しない。検査所見:血液所見:赤血球385万、Hb11.7g/dL、Ht35%、白血球8,500、血小板22万、PT-INR1.1(基準0.9~1.1)。血液生化学所見:総蛋白6.2g/dL、アルブミン3.8g/dL、総ビリルビン1.0mg/dL、AST28U/L、ALT23U/L、LD214U/L(基準124~222)、ALP41U/L(基準38~113)、Y-GT10U/L(基準9~32)、CK83U/L(基準41~153)、尿素窒素25mg/dL、クレアチニン0.6mg/dL、尿酸4.6mg/dL、血糖112mg/dL、HbAlc5.8%(基準4.9~6.0)、Na137mEq/L、K4.1mEq/L、C198mEq/L。 緊急で上部消化管内視鏡検査を行うこととした。内視鏡検査前に確認することで、優先度が高いのはどれか。 ",
+      "choices": [
+        "a. 妊娠出産歴",
+        "b. 本日の排便回数",
+        "c. 香辛料摂取の嗜好",
+        "d. Helicobacter pyloriの除菌歴",
+        "e. 局所麻酔薬に対するアレルギー歴"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:17:05.094474",
+          "answer": "e",
+          "confidence": 0.95,
+          "explanation": "局所麻酔薬に対するアレルギー歴は、内視鏡検査前に確認すべき最も重要な事項である。アレルギーがある場合、検査中に重篤な反応を引き起こす可能性があるため、予め把握しておくことが不可欠である。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F65",
+      "question_text": "64歳の女性。嘔吐を主訴に来院した。現病歴:今朝、悪心で目が覚め、黒色物を嘔吐したため、夫とともに受診した。既往歴:40歳時に胆囊炎で手術。Parkinson病でレボドパ〈L-dopa〉を内服している。2週間前に生じた右大腿部痛で、NSAIDを内服している。52歳で閉経。生活歴:夫と2人暮らし。喫煙歴と飲酒歴はない。家族歴:母がうつ病にて投薬治療中。現症:意識は清明。身長160cm、体重48kg。体温36.4℃。脈拍108/分、整。血圧108/60mmHg。呼吸数20/分。SpO297%(roomair)。眼瞼結膜と眼球結膜とに異常を認めない。頭静脈の怒張を認めない。心音と呼吸音とに異常を認めない。腹部は平坦、軟で右季肋部に小手術痕を認める。腸雑音は亢進している。上腹部正中に軽度の圧痛を認める。肝·脾を触知しない。検査所見:血液所見:赤血球385万、Hb11.7g/dL、Ht35%、白血球8,500、血小板22万、PT-INR1.1(基準0.9~1.1)。血液生化学所見:総蛋白6.2g/dL、アルブミン3.8g/dL、総ビリルビン1.0mg/dL、AST28U/L、ALT23U/L、LD214U/L(基準124~222)、ALP41U/L(基準38~113)、Y-GT10U/L(基準9~32)、CK83U/L(基準41~153)、尿素窒素25mg/dL、クレアチニン0.6mg/dL、尿酸4.6mg/dL、血糖112mg/dL、HbAlc5.8%(基準4.9~6.0)、Na137mEq/L、K4.1mEq/L、C198mEq/L。 上部消化管内視鏡検査の胃前庭部小弯像(別冊No.7A)と十二指腸像(別冊No.7B)とを別に示す。露出血管を伴う潰瘍は認めなかった。この患者への対応で適切なのはどれか。 ",
+      "choices": [
+        "a. 異物除去術",
+        "b. クリッピング",
+        "c. 酸分泌抑制薬投与",
+        "d. 内視鏡的硬化療法",
+        "e. 内視鏡的粘膜下層剝離術〈ESD〉"
+      ],
+      "has_image": true,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:17:10.208775",
+          "answer": "c",
+          "confidence": 0.9,
+          "explanation": "患者は嘔吐、黒色物の嘔吐、上腹部痛があります。血液検査ではhbが11.7g/dlとやや低いですが、inrは正常で、上部消化管内視鏡検査では露出血管を伴う潰瘍は認められませんでした。nsaidsによる消化性潰瘍の疑いが高く、まずは酸分泌抑制薬の投与が適切です。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F66",
+      "question_text": "73歳の女性。記銘力低下を主訴に長女に連れられて来院した。現病歴:2か月前から急に物忘れがひどくなり、家族に心配され来院した。①*バスに乗って*買い物に行っても、②*レジでの支払い*ができなくなり、生活用品は長女が買って届けている。食事は宅配のお弁当を利用しており、③*ひとりで食べられる。*しかし偏食のため食べ残しが多い。④*着替えは自分でできる。*最近は家で過ごす時間が長くなり、友人から誘われても⑤*趣味のゲートボールに行かなくなった。*既往歴:18歳時に虫垂炎で手術歴あり。生活歴:喫煙歴はない。飲酒は機会飲酒。車で30分の距離に長女夫婦が住んでいる。アレルギー歴はない。家族歴:父は心筋梗塞で死亡。母は肺炎で死亡。夫は梅毒罹患歴があり、3年前、75歳時に膵癌で死亡。現症:意識は清明。意思疎通は可能で、礼節は保たれている。身長157cm、体重52kg。体温36.2℃。脈拍84/分、整。血圧128/76mmHg。呼吸数12/分。皮膚と粘膜に異常を認めない。心音と呼吸音とに異常を認めない。腹部は右下腹部に手術痕を認める。歩行はゆっくりだが、前傾姿勢は認めない。検査所見:尿所見:蛋白(一)、糖(一)。血液所見:赤血球438万、Hb13.2g/dL、Ht40%、白血球6,800、血小板21万。血液生化学所見:総蛋白6.5g/dL、アルブミン3.5g/dL、AST26U/L、ALT18U/L、LD162U/L(基準124~222)、Y-GT16U/L(基準9~32)、アンモニア22μg/dL(基準18~48)、尿素窒素16mg/dL、クレアチニン0.7mg/dL、血糖96mg/dL、Na142mEq/L、K4.2mEq/L、C198mEq/L、Ca8.6mg/dL。CRP0.1mg/dL。 下線部のうち、基本的日常生活動作〈ADL〉に該当するものはどれか。2つ選べ。 ",
+      "choices": [
+        "a. ①",
+        "b. ②",
+        "c. ③",
+        "d. ④",
+        "e. ⑤"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:17:16.903626",
+          "answer": "bd",
+          "confidence": 1.0,
+          "explanation": "②レジでの支払いと④着替えは、基本的日常生活動作（adl）に含まれます。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F67",
+      "question_text": "73歳の女性。記銘力低下を主訴に長女に連れられて来院した。現病歴:2か月前から急に物忘れがひどくなり、家族に心配され来院した。①*バスに乗って*買い物に行っても、②*レジでの支払い*ができなくなり、生活用品は長女が買って届けている。食事は宅配のお弁当を利用しており、③*ひとりで食べられる。*しかし偏食のため食べ残しが多い。④*着替えは自分でできる。*最近は家で過ごす時間が長くなり、友人から誘われても⑤*趣味のゲートボールに行かなくなった。*既往歴:18歳時に虫垂炎で手術歴あり。生活歴:喫煙歴はない。飲酒は機会飲酒。車で30分の距離に長女夫婦が住んでいる。アレルギー歴はない。家族歴:父は心筋梗塞で死亡。母は肺炎で死亡。夫は梅毒罹患歴があり、3年前、75歳時に膵癌で死亡。現症:意識は清明。意思疎通は可能で、礼節は保たれている。身長157cm、体重52kg。体温36.2℃。脈拍84/分、整。血圧128/76mmHg。呼吸数12/分。皮膚と粘膜に異常を認めない。心音と呼吸音とに異常を認めない。腹部は右下腹部に手術痕を認める。歩行はゆっくりだが、前傾姿勢は認めない。検査所見:尿所見:蛋白(一)、糖(一)。血液所見:赤血球438万、Hb13.2g/dL、Ht40%、白血球6,800、血小板21万。血液生化学所見:総蛋白6.5g/dL、アルブミン3.5g/dL、AST26U/L、ALT18U/L、LD162U/L(基準124~222)、Y-GT16U/L(基準9~32)、アンモニア22μg/dL(基準18~48)、尿素窒素16mg/dL、クレアチニン0.7mg/dL、血糖96mg/dL、Na142mEq/L、K4.2mEq/L、C198mEq/L、Ca8.6mg/dL。CRP0.1mg/dL。 血中梅毒トレポネーマ抗体〈TPHA〉と非トレポネーマ脂質抗体〈RPR〉はいずれも陽性、ヒト免疫不全ウイルス<HIV>抗原抗体は陰性であった。頭部単純CTで明らかな異常を認めない。記銘力低下の原因を鑑別するために追加すべき血液検査項目はどれか。2つ選べ。 ",
+      "choices": [
+        "a. 葉酸",
+        "b. ビタミンD",
+        "c. ビタミンB1",
+        "d. β2-マイクログロブリン",
+        "e. 甲状腺刺激ホルモン〈TSH〉"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:17:26.621870",
+          "answer": "ae",
+          "confidence": 0.9,
+          "explanation": "記銘力低下の原因を鑑別するために、葉酸と甲状腺刺激ホルモン（tsh）が重要な検査項目である。葉酸の不足は神経系に影響を与え、記憶力の低下を引き起こすことがある。また、甲状腺機能の異常も記憶障害の原因となるため、tshの測定が必要である。ビタミンd、ビタミンb1、β2-マイクログロブリンは、この症例では優先度が低い。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F68",
+      "question_text": "73歳の女性。記銘力低下を主訴に長女に連れられて来院した。現病歴:2か月前から急に物忘れがひどくなり、家族に心配され来院した。①*バスに乗って*買い物に行っても、②*レジでの支払い*ができなくなり、生活用品は長女が買って届けている。食事は宅配のお弁当を利用しており、③*ひとりで食べられる。*しかし偏食のため食べ残しが多い。④*着替えは自分でできる。*最近は家で過ごす時間が長くなり、友人から誘われても⑤*趣味のゲートボールに行かなくなった。*既往歴:18歳時に虫垂炎で手術歴あり。生活歴:喫煙歴はない。飲酒は機会飲酒。車で30分の距離に長女夫婦が住んでいる。アレルギー歴はない。家族歴:父は心筋梗塞で死亡。母は肺炎で死亡。夫は梅毒罹患歴があり、3年前、75歳時に膵癌で死亡。現症:意識は清明。意思疎通は可能で、礼節は保たれている。身長157cm、体重52kg。体温36.2℃。脈拍84/分、整。血圧128/76mmHg。呼吸数12/分。皮膚と粘膜に異常を認めない。心音と呼吸音とに異常を認めない。腹部は右下腹部に手術痕を認める。歩行はゆっくりだが、前傾姿勢は認めない。検査所見:尿所見:蛋白(一)、糖(一)。血液所見:赤血球438万、Hb13.2g/dL、Ht40%、白血球6,800、血小板21万。血液生化学所見:総蛋白6.5g/dL、アルブミン3.5g/dL、AST26U/L、ALT18U/L、LD162U/L(基準124~222)、Y-GT16U/L(基準9~32)、アンモニア22μg/dL(基準18~48)、尿素窒素16mg/dL、クレアチニン0.7mg/dL、血糖96mg/dL、Na142mEq/L、K4.2mEq/L、C198mEq/L、Ca8.6mg/dL。CRP0.1mg/dL。 血中梅毒トレポネーマ抗体〈TPHA〉と非トレポネーマ脂質抗体〈RPR〉はいずれも陽性、ヒト免疫不全ウイルス<HIV>抗原抗体は陰性であった。頭部単純CTで明らかな異常を認めない。追加血液検査はいずれも基準範囲内であった。治療が必要な梅毒と判断し、患者本人と長女に説明することになった。説明の内容で誤っているのはどれか。 ",
+      "choices": [
+        "a. 「脳脊髄液検査を行います」",
+        "b. 「ペニシリン系抗菌薬で治療します」",
+        "c. 「家族の方は抗菌薬の予防内服が必要です」",
+        "d. 「治療終了後も定期的に血液検査を行います」",
+        "e. 「トイレの共用で家族に感染することはありません」"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:17:34.079827",
+          "answer": "c",
+          "confidence": 0.9,
+          "explanation": "梅毒は性行為や母子感染が主要な感染経路であり、一般的な日常生活での接触（トイレの共用など）による感染はほとんどない。そのため、家族の方は抗菌薬の予防内服が必要ない。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F69",
+      "question_text": "60歳の男性。激しい胸痛と息苦しさを主訴に救急車で搬入された。現病歴:7日前から10分程度の平地歩行で前胸部の絞扼感と息苦しさとを自覚していたが、5分程度の休息で症状は消失していた。本日午後10時に勃起不全の治療薬としてPDE5〈phosphodiesterase5〉阻害薬を服用した。午後10時30分から突然の強い胸痛を自覚し、30分以上持続したため妻が救急車を要請した。既往歴:10年前から糖尿病で経口糖尿病薬、1年前から勃起不全に対してPDE5〈phosphodiesterase5〉阻害薬を服用中である。生活歴:喫煙は10本/日を40年間。飲酒は機会飲酒。妻と2人暮らし。家族歴:母が糖尿病。現症胸痛で苦悶様の顔貌をしているが呼びかけには応じる。身長169cm、体重72kg。体温36.3℃。心拍数56/分、整。血圧80/46mmHg。呼吸数18/分。SpO296%(roomair)。冷汗を認め、四肢末梢に冷感を認める。心音と呼吸音とに異常を認めない。腹部は平坦、軟で、肝·脾を触知しない。下腿に浮腫を認めない。12誘導心電図でII、III、aVFのST上昇を認める。右側胸部誘導でもST上昇を認める。心エコー検査では下壁の壁運動低下に加えて右室の壁運動低下も認める。 次に行うべき処置で誤っているのはどれか。 ",
+      "choices": [
+        "a. ヘパリンの静注",
+        "b. アスピリンの経口投与",
+        "c. ドブタミンの点滴静注",
+        "d. ニトログリセリンの舌下",
+        "e. 生理食塩液の急速点滴静注"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:17:41.583137",
+          "answer": "d",
+          "confidence": 0.9,
+          "explanation": "患者は低血圧（80/46mmhg）を呈しているため、ニトログリセリンの使用は禁忌である。ニトログリセリンは血管を拡張し、血圧をさらに下げる危険がある。他の処置は急性冠症候群の標準的な初期管理として適切である。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F70",
+      "question_text": "60歳の男性。激しい胸痛と息苦しさを主訴に救急車で搬入された。現病歴:7日前から10分程度の平地歩行で前胸部の絞扼感と息苦しさとを自覚していたが、5分程度の休息で症状は消失していた。本日午後10時に勃起不全の治療薬としてPDE5〈phosphodiesterase5〉阻害薬を服用した。午後10時30分から突然の強い胸痛を自覚し、30分以上持続したため妻が救急車を要請した。既往歴:10年前から糖尿病で経口糖尿病薬、1年前から勃起不全に対してPDE5〈phosphodiesterase5〉阻害薬を服用中である。生活歴:喫煙は10本/日を40年間。飲酒は機会飲酒。妻と2人暮らし。家族歴:母が糖尿病。現症胸痛で苦悶様の顔貌をしているが呼びかけには応じる。身長169cm、体重72kg。体温36.3℃。心拍数56/分、整。血圧80/46mmHg。呼吸数18/分。SpO296%(roomair)。冷汗を認め、四肢末梢に冷感を認める。心音と呼吸音とに異常を認めない。腹部は平坦、軟で、肝·脾を触知しない。下腿に浮腫を認めない。12誘導心電図でII、III、aVFのST上昇を認める。右側胸部誘導でもST上昇を認める。心エコー検査では下壁の壁運動低下に加えて右室の壁運動低下も認める。 緊急カテーテル検査の準備中に突然うめき声をあげてその後動かなくなった。心電図モニターの波形(別冊No.8)を別に示す。直ちに行うべき処置はどれか。 ",
+      "choices": [
+        "a. 気管挿管",
+        "b. 電気的除細動",
+        "c. 心室ペーシング",
+        "d. リドカイン静注",
+        "e. アミオダロン静注"
+      ],
+      "has_image": true,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:17:49.016879",
+          "answer": "b",
+          "confidence": 0.9,
+          "explanation": "患者は急性心筋梗塞の可能性が高く、心電図モニターの波形から心室細動を疑う。心室細動は直ちに電気的除細動を行うことが救命につながるため、選択肢bが最も適切です。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F71",
+      "question_text": "60歳の男性。激しい胸痛と息苦しさを主訴に救急車で搬入された。現病歴:7日前から10分程度の平地歩行で前胸部の絞扼感と息苦しさとを自覚していたが、5分程度の休息で症状は消失していた。本日午後10時に勃起不全の治療薬としてPDE5〈phosphodiesterase5〉阻害薬を服用した。午後10時30分から突然の強い胸痛を自覚し、30分以上持続したため妻が救急車を要請した。既往歴:10年前から糖尿病で経口糖尿病薬、1年前から勃起不全に対してPDE5〈phosphodiesterase5〉阻害薬を服用中である。生活歴:喫煙は10本/日を40年間。飲酒は機会飲酒。妻と2人暮らし。家族歴:母が糖尿病。現症胸痛で苦悶様の顔貌をしているが呼びかけには応じる。身長169cm、体重72kg。体温36.3℃。心拍数56/分、整。血圧80/46mmHg。呼吸数18/分。SpO296%(roomair)。冷汗を認め、四肢末梢に冷感を認める。心音と呼吸音とに異常を認めない。腹部は平坦、軟で、肝·脾を触知しない。下腿に浮腫を認めない。12誘導心電図でII、III、aVFのST上昇を認める。右側胸部誘導でもST上昇を認める。心エコー検査では下壁の壁運動低下に加えて右室の壁運動低下も認める。 緊急カテーテル検査の準備中に突然うめき声をあげてその後動かなくなった。洞調律に復帰後、緊急冠動脈造影検査のためカテーテル室に移動した。平均血圧60mmHg以上の維持が困難で、心拍数も120/分を超えて不穏状態となった。次に行う治療で適切なのはどれか。 ",
+      "choices": [
+        "a. 植込み型除細動器",
+        "b. 永久ペースメーカ",
+        "c. 補助人工心臓〈VAD〉",
+        "d. 大動脈内バルーンパンピング〈IABP〉",
+        "e. ECMO<Extracorporeal membrane oxygenation>"
+      ],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:17:58.078390",
+          "answer": "d",
+          "confidence": 0.9,
+          "explanation": "本症例では急性冠症候群、特に急性心筋梗塞の可能性が高く、カテーテル検査中に心原性ショックに移行しています。大動脈内バルーンパンピング（iabp）は、心原性ショックや血液動態不安定な症例において、一時的な血行動態の安定化と冠血流の改善に有効です。よって、当症例ではiabp(d)が最も適切な治療法と考えられます。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F72",
+      "question_text": "82歳の女性。発熱と呼吸困難を主訴に来院した。現病歴:3日前から発熱と乾性咳嗽が出現、2日前から労作時の呼吸困難も出現したため受診した。同居している家族を含め、周囲で上気道炎症状のある人はいない。既往歴:2年前から特発性間質性肺炎と診断され、3か月前の急性増悪の際にステロイドパルス療法が行われ、その後漸減しながら現在プレドニゾロン25mg/日と抗線維化薬を内服している。その他の薬は副作用のため中断している。生活歴:喫煙歴はない。自宅で夫と息子夫婦の4人暮らし。ADLは自立。毎日近所を散歩している。室内で犬を1匹飼っている。3か月前にインフルエンザワクチンと新型コロナウイルスワクチンを接種している。家族歴:父が82歳時に肺癌で死亡。現症:意識は清明。身長155cm、体重60kg。体温37.8℃。脈拍84/分、整。血圧130/76mmHg。呼吸数28/分。SpO288%(roomair)。心音に異常は認めない。呼吸音は両側下肺背側にfine cracklesを聴取する。腹部は平坦、軟で、肝·脾を触知しない。下腿に浮腫を認めない。検査所見:尿所見:蛋白(一)、糖3+、ケトン体2+、潜血1+。血液所見:赤血球412万、Hb12.3g/dL、Ht38%、白血球11,400(分葉核好中球89%、単球1%、リンパ球10%)、血小板24万、Dダイマー1.0μg/mL(基準1.0以下)。血液生化学所見:総蛋白5.1g/dL、アルブミン3.0g/dL、総ビリルビン0.7mg/dL、AST25U/L、ALT21U/L、LD549U/L(基準124~222)、ALP39U/L(基準38~113)、Y-GT30U/L(基準9~32)、尿素窒素17mg/dL、クレアチニン0.5mg/dL、血糖144mg/dL、HbAlc6.1%(基準4.9~6.0)、Na135mEq/L、K3.9mEq/L、C194mEq/L、KL-64,482U/mL(基準500未満)。免疫血清学所見:CRP4.7mg/dL、β-Dーグルカン210pg/mL(基準10以下)。インフルエンザウイルス迅速抗原検査陰性、新型コロナウイルス〈SARS-CoV-2〉抗原定性検査陰性、サイトメガロウイルス抗原陰性。胸部エックス線写真(別冊No.9A)と胸部単純CT(別冊No.9B)とを別に示す。 気管支鏡検査を行い、気管支肺胞洗浄液を採取した。確定診断に有用な染色法はどれか。 ",
+      "choices": [
+        "a. Gram染色",
+        "b. Grocott染色",
+        "c. Congo-Red染色",
+        "d. Papanicolaou染色",
+        "e. Ziehl-Neelsen染色"
+      ],
+      "has_image": true,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:18:11.804496",
+          "answer": "b",
+          "confidence": 0.9,
+          "explanation": "grocott染色は、真菌の検出に用いられる染色法であり、本症例では特発性間質性肺炎の患者で発熱、呼吸困難、細かい湿性啰音、β-dグルカンの上昇が認められているため、真菌性肺炎を疑う。これらの所見から、grocott染色が確定診断に有用であると考えられる。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F73",
+      "question_text": "82歳の女性。発熱と呼吸困難を主訴に来院した。現病歴:3日前から発熱と乾性咳嗽が出現、2日前から労作時の呼吸困難も出現したため受診した。同居している家族を含め、周囲で上気道炎症状のある人はいない。既往歴:2年前から特発性間質性肺炎と診断され、3か月前の急性増悪の際にステロイドパルス療法が行われ、その後漸減しながら現在プレドニゾロン25mg/日と抗線維化薬を内服している。その他の薬は副作用のため中断している。生活歴:喫煙歴はない。自宅で夫と息子夫婦の4人暮らし。ADLは自立。毎日近所を散歩している。室内で犬を1匹飼っている。3か月前にインフルエンザワクチンと新型コロナウイルスワクチンを接種している。家族歴:父が82歳時に肺癌で死亡。現症:意識は清明。身長155cm、体重60kg。体温37.8℃。脈拍84/分、整。血圧130/76mmHg。呼吸数28/分。SpO288%(roomair)。心音に異常は認めない。呼吸音は両側下肺背側にfine cracklesを聴取する。腹部は平坦、軟で、肝·脾を触知しない。下腿に浮腫を認めない。検査所見:尿所見:蛋白(一)、糖3+、ケトン体2+、潜血1+。血液所見:赤血球412万、Hb12.3g/dL、Ht38%、白血球11,400(分葉核好中球89%、単球1%、リンパ球10%)、血小板24万、Dダイマー1.0μg/mL(基準1.0以下)。血液生化学所見:総蛋白5.1g/dL、アルブミン3.0g/dL、総ビリルビン0.7mg/dL、AST25U/L、ALT21U/L、LD549U/L(基準124~222)、ALP39U/L(基準38~113)、Y-GT30U/L(基準9~32)、尿素窒素17mg/dL、クレアチニン0.5mg/dL、血糖144mg/dL、HbAlc6.1%(基準4.9~6.0)、Na135mEq/L、K3.9mEq/L、C194mEq/L、KL-64,482U/mL(基準500未満)。免疫血清学所見:CRP4.7mg/dL、β-Dーグルカン210pg/mL(基準10以下)。インフルエンザウイルス迅速抗原検査陰性、新型コロナウイルス〈SARS-CoV-2〉抗原定性検査陰性、サイトメガロウイルス抗原陰性。胸部エックス線写真(別冊No.9A)と胸部単純CT(別冊No.9B)とを別に示す。 想定される疾患のリスクファクターはどれか。 ",
+      "choices": [
+        "a. 性別",
+        "b. 年齢",
+        "c. 耐糖能異常",
+        "d. ワクチン接種",
+        "e. プレドニゾロン内服"
+      ],
+      "has_image": true,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:18:19.707660",
+          "answer": "bce",
+          "confidence": 0.85,
+          "explanation": "82歳の高齢者であること（年齢）、hba1cの値が6.1%と耐糖能異常を示唆すること、そしてプレドニゾロンを内服していることが、想定される疾患のリスクファクターとして適切です。これらの要因は、感染症や間質性肺炎の増悪リスクを高める可能性があります。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F74",
+      "question_text": "82歳の女性。発熱と呼吸困難を主訴に来院した。現病歴:3日前から発熱と乾性咳嗽が出現、2日前から労作時の呼吸困難も出現したため受診した。同居している家族を含め、周囲で上気道炎症状のある人はいない。既往歴:2年前から特発性間質性肺炎と診断され、3か月前の急性増悪の際にステロイドパルス療法が行われ、その後漸減しながら現在プレドニゾロン25mg/日と抗線維化薬を内服している。その他の薬は副作用のため中断している。生活歴:喫煙歴はない。自宅で夫と息子夫婦の4人暮らし。ADLは自立。毎日近所を散歩している。室内で犬を1匹飼っている。3か月前にインフルエンザワクチンと新型コロナウイルスワクチンを接種している。家族歴:父が82歳時に肺癌で死亡。現症:意識は清明。身長155cm、体重60kg。体温37.8℃。脈拍84/分、整。血圧130/76mmHg。呼吸数28/分。SpO288%(roomair)。心音に異常は認めない。呼吸音は両側下肺背側にfine cracklesを聴取する。腹部は平坦、軟で、肝·脾を触知しない。下腿に浮腫を認めない。検査所見:尿所見:蛋白(一)、糖3+、ケトン体2+、潜血1+。血液所見:赤血球412万、Hb12.3g/dL、Ht38%、白血球11,400(分葉核好中球89%、単球1%、リンパ球10%)、血小板24万、Dダイマー1.0μg/mL(基準1.0以下)。血液生化学所見:総蛋白5.1g/dL、アルブミン3.0g/dL、総ビリルビン0.7mg/dL、AST25U/L、ALT21U/L、LD549U/L(基準124~222)、ALP39U/L(基準38~113)、Y-GT30U/L(基準9~32)、尿素窒素17mg/dL、クレアチニン0.5mg/dL、血糖144mg/dL、HbAlc6.1%(基準4.9~6.0)、Na135mEq/L、K3.9mEq/L、C194mEq/L、KL-64,482U/mL(基準500未満)。免疫血清学所見:CRP4.7mg/dL、β-Dーグルカン210pg/mL(基準10以下)。インフルエンザウイルス迅速抗原検査陰性、新型コロナウイルス〈SARS-CoV-2〉抗原定性検査陰性、サイトメガロウイルス抗原陰性。胸部エックス線写真(別冊No.9A)と胸部単純CT(別冊No.9B)とを別に示す。 入院して治療を行ったが、呼吸状態が悪化し、マスク5L/分の酸素投与でもSpO2が90%を維持できない状態となり、本人の呼吸困難も悪化した。終末期における医療について、患者本人から侵襲的な処置を希望しないこと、「苦しくないように、痛くないようにして欲しい」という希望があることを家族が聞いており、家族から本人の意思を尊重して治療を進めて欲しいと話があった。また今回の入院時にも、同様のことを本人が主治医をはじめ医療スタッフに話しており、診療録にもこの意向が記載されていた。オピオイドの投与とともに行うのはどれか。 ",
+      "choices": [
+        "a. 気管切開",
+        "b. 気管插管",
+        "c. 輪状甲状靱帯切開",
+        "d. ネーザルハイフローによる酸素投与",
+        "e. ECMO<Extracorporeal membrane oxygenation>"
+      ],
+      "has_image": true,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:18:34.724635",
+          "answer": "d",
+          "confidence": 0.9,
+          "explanation": "患者の終末期における医療希望は、侵襲的な処置を望まず、苦しさや痛みを和らげることに重点が置かれています。ネーザルハイフローによる酸素投与は、比較的非侵襲的な方法で酸素供給を改善することができ、患者の希望に合致しています。他の選択肢（a, b, c, e）はいずれもより侵襲的な処置であり、患者の意向に反するため不適切です。",
+          "cot": null
+        }
+      ]
+    },
+    {
+      "question_number": "119F75",
+      "question_text": "10か月の男児。嘔吐と下痢を主訴に母親に連れられて来院した。診察時の体重は10kg。血清Na濃度は132mEq/Lであった。正常血清Na濃度を140mEq/Lとして、Naの欠乏量を求めよ。ただし、患児の体重に対する細胞内液の割合を30%、細胞外液の割合を20%とする。また小数点以下の数値が得られた場合には、小数第1位を四捨五入すること。 ()mEq ",
+      "choices": [],
+      "has_image": false,
+      "answers": [
+        {
+          "model": "openrouter-qwen/qwen-2.5-72b-instruct:free",
+          "timestamp": "2025-05-12T22:18:42.401049",
+          "answer": "12",
+          "confidence": 1.0,
+          "explanation": "細胞外液のna濃度の変化量を求め、それを元にnaの欠乏量を計算します。計算式：（140-132）×10×0.2/1 = 16，四捨五入により12 meq。",
+          "cot": null
+        }
+      ]
+    }
+  ]
+}

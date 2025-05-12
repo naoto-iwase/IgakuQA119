@@ -1,0 +1,14 @@
+[project]
+name = "IgakuQA119"
+version = "0.1.0"
+description = "IgakuQA119 is a repository designed to evaluate the performance of Large Language Models (LLMs) using the 119th Japanese Medical Licensing Examination (JMLE). "
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic>=0.43.0",
+    "openai>=1.59.6",
+    "pandas>=2.2.3",
+    "python-dotenv>=1.0.1",
+    "tqdm>=4.67.1",
+]
